@@ -40,8 +40,8 @@ Make sure you have the following installed on your system:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
-   cd <repository-name>
+   git clone https://github.com/karansarda121/Backend_assignment_3w.git
+   cd <Backend_assignment>
 
 ### Setup Backend
    cd backend
