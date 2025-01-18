@@ -44,17 +44,22 @@ Make sure you have the following installed on your system:
    cd <Backend_assignment>
 
 ### Setup Backend
-   cd backend
-   npm install
-    Create a .env file in the backend directory and add the following variables:
+   ### cd backend
+   ### npm install
+   ###  creeate .env file if does not exist
              MONGO_URI=<your-mongodb-connection-string>
-     npm start  //To start backend server
+    ### npm start  //To start backend server
 
 
  ### Navigate to the frontend folder:
-     cd ../frontend
-     Install dependencies:
+   ### cd ../frontend
+   ### Install dependencies:
           npm install
-     Start the React development server:
+   ### Start the React development server:
             npm start
 
+  ### Note
+  const api = axios.create({
+  baseURL: "https://backend-assignment-3w.onrender.com/api/users",
+});   this is deployed backend link  if not working then insert the local host link
+        "http://localhost:5000/api/users"
